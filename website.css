@@ -1,0 +1,216 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	}
+	
+/* general body */
+body {
+	background-color: #F5F5F5;
+	font-family: Roboto Slab, sans-serif;
+	}
+
+/* styling background in header */
+header {
+	height: 264px;
+	max-width: 1600px;
+	margin: 0px auto;
+	background: url(images/books_header_bg.jpg) no-repeat right 0px;
+	padding-top: 3%;
+	}
+
+/* centering the head section */	
+.head {
+	max-width: 700px;
+	margin: 0px auto;
+	font-size: 2em;
+	color: #FFFFFF;
+	}
+	
+/* styling introduction section at head */
+.intro {
+	display:inline-block;
+	padding-left: 1.75%;
+	padding-top: .5%;
+	}
+
+/* styling modern developer words at head */
+#moddev {
+	font-family: Roboto Slab, sans-serif;
+	font-weight: 200;
+	}
+
+/* decorate the description text in the header */ 
+.description {
+	color: #6B8607;
+	float: left;
+	font-size: .5em;
+	font-family: Roboto, sans-serif;
+	padding-left: 1.75%;
+	}
+	
+/* Float the top logo to the left */	
+.toplogo {
+	float: left;
+	padding-left: 20px;
+	}	
+
+/* remove margin and padding add a background color */
+ul.topnav {
+  	list-style-type: none;
+	text-align: center;  	
+    overflow: hidden;
+    background-color: #F5F5F5;
+	max-width: 1040px;
+	margin: 0px auto;
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+	}
+
+/* Float the list items side by side */
+ul.topnav li {
+	float: left;
+	}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+	display:block;
+	float: left;
+    color: #808080; 	
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	}
+
+/* change color of links on hover */
+ul.topnav li a:hover {
+	color: #ACC95C;
+	}
+
+/* styling div search section */	
+.search_bar {
+	max-width: 1600px;
+	height: 100px;
+	clear: both;
+	padding-left: 20px;
+	padding-top: 35px; 
+	}
+	
+/* styling search bar */
+#search {
+	border-style: none; 
+    border-color: transparent; 
+    overflow: auto;  
+    float: left;
+    height: 50px;
+    width: 600px;
+	background-color: #CEDD9A;
+	color: #758E1A;
+	font-size: .5em;
+	border-radius: 3px 0 0 3px;
+	padding-left: 3%;
+}
+
+/* change plceholder text in Chrome */
+::-webkit-input-placeholder {
+  color: #758E1A;
+}
+
+/* change plceholder text in IE 10+ */
+:-ms-input-placeholder {
+  color: #758E1A;
+}
+
+/* change plceholder text in Firefox 19+ */
+::-moz-placeholder { 
+  color: #758E1A;
+  opacity: 1;
+}
+
+/* change plceholder text in Firefox 4 - 18 */
+:-moz-placeholder { 
+  color: #758E1A;
+  opacity: 1;
+}
+  
+/* button placement */
+#button-placement {
+    background-color: #F5F5F5;  
+    cursor: pointer;
+    float: left;
+    height: 50px;
+    text-align: center;
+    width: 60px;
+	border-radius: 0 3px 3px 0;
+}
+
+/* button image */
+#button-placement img {
+	margin: 3px;
+    width: 40px;
+}
+
+/* styling footer */
+footer {
+	max-width: 1600px;
+	background-color: #3A3A3A;
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 1rem;
+	height: 150px;
+	}
+
+/* determine size and centering of text in the footer */	
+.foot {
+	max-width: 1150px;
+	margin: 0px auto;
+	margin-top: 3%;
+	}
+	
+/* styling bottom footer logo */
+.bottomlogo {
+	float: left;
+	}
+
+/* changing color, size and location of text in the footer */
+.outro {
+	float: left;
+	color: #A9A9A9;
+	font-weight: 600;
+	font-size: 1.07em;
+	padding-left: 1%;
+	padding-top: .75%;
+	}
+	
+/* changing the font color and weight of .Modern Developer in the footer */
+#modoutro {
+	color: #686868;
+	font-weight: 600;
+	}
+
+/* moving the copyright and contact info to the right */
+.foot_together {
+	float: right;
+	}
+	
+/* sizing and coloring the copyright text */	
+.copyright {
+	color: #5E5E5E;
+	font-size: .90em;
+	font-weight: 500;
+	}
+	
+/* sizing and coloring the contact text */
+.contact_info {
+	color: #B1B1B1;
+	font-size: .90em;
+	}
+
+
+
