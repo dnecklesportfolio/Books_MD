@@ -1,203 +1,398 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Books Bov Academy</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,300italic|Roboto+Slab:400,300,700,100" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="website.css">
-</head>
+  <link rel="stylesheet" type="text/css" href="website.css"> </head>
+
 <body>
-<header>
-  <div class="head">
+  <header>
+    <div class="head">
       <div class="intro_bar">
-            <div class="toplogo"><img src="images/books.MD_logo_icon.png" alt="Logo"></div>
-            <div class="intro">Books. <span id="moddev" >Modern Developer</span></div>
-            <div class="description">The Largest Resource of Web and Mobile Development and Programming Books</div>
+        <div class="toplogo"><img src="images/books.MD_logo_icon.png" alt="Logo">
         </div>
-        <div class="search_bar">
-          <input type="text" placeholder="Search books by any keyword or title..." id="search" />
-          <div id="button-placement"><img src="images/green_magnifying_glass.png" alt="magnifying glass"/></div>
+        <div class="intro">Books. <span id="moddev">Modern Developer</span>
         </div>
+        <div class="description">The Largest Resource of Web and Mobile Development and Programming Books</div>
+      </div>
+      <div class="search_bar">
+        <input type="text" placeholder="Search books by any keyword or title..." id="search">
+        <div id="button-placement"><img src="images/green_magnifying_glass.png" alt="magnifying glass">
+        </div>
+      </div>
     </div>
-</header>
-	<nav>
-        <ul class="topnav"> 
-          <li><a href="#">UI/UX Design</a></li>
-          <li><a href="#">Web Programming</a></li>
-          <li><a href="#">Frontend Development</a></li>
-          <li><a href="#">Javascript</a></li>
-          <li><a href="#">Mobile Development</a></li>
-          <li><a href="#">Backend Development</a></li>
+  </header>
+  <nav>
+    <ul class="topnav">
+      <li><a href="#">UI/UX Design</a>
+      </li>
+      <li><a href="#">Web Programming</a>
+      </li>
+      <li><a href="#">Frontend Development</a>
+      </li>
+      <li><a href="#">Javascript</a>
+      </li>
+      <li><a href="#">Mobile Development</a>
+      </li>
+      <li><a href="#">Backend Development</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="content">
+    <div id="eloquent" class="book-panel">
+      <div class="main-row">
+        <div class="book-info">
+          <div class="header">
+            <h3>Eloquent JavaScript<br>A Modern Introduction to Programming</h3>
+            <!-- End book_title div-->
+            <ul class="byline">
+              <li>by <a class="author" href="#">Marijin Haverbeke</a>
+              </li>
+              <li><a class="follow" href="#">Follow</a>
+              </li>
+              <li class="static-text">Published in 2015</li>
+              <li class="static-text">2nd Edition</li>
+            </ul>
+            <!-- End by_line-->
+          </div>
+          <div class="description">
+            <p>JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.</p>
+            <p>Eloquent Javascript, 2nd Edition dives deep into the Ja-vaScript language to show you how to write beautiful, effective code.</p> <a class="read-more" href="#">Read more</a> </div>
+          <!-- End description div-->
+          <div class="utilities">
+            <ul class="ratings">
+              <li>Easy to Follow <span class="num-reviewers"><div class="arrow-down"></div>29</span> <span class="rating">80%</span> </li>
+              <li>Comprehensive <span class="num-reviewers"><div class="arrow-down"></div>6</span> <span class="rating">75%</span> </li>
+              <li>Enough Examples <span class="num-reviewers"><div class="arrow-down"></div>18</span><span class="rating">95%</span> </li>
+            </ul>
+            <ul class="details">
+              <li><a href="">Rate the Book</a><i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </li>
+              <li><a href="">Table of Contents</a><i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </li>
+              <li><a href="">Search Inside</a><i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </li>
+            </ul>
+          </div>
+          <!-- End utilities div-->
+        </div>
+        <!-- End book-info--><img class="product_image" src="./images/book1.png" width="360" height="475" alt="Eloquent JavaScript 2nd Edition"> </div>
+      <!-- end main row -->
+      <!-- End product_image div-->
+      <div class="footer">
+        <ul class="buying-links">
+          <li class="buying-link">
+            <a class="store" href="#"><img src="./images/gumroad.png" alt="Gumroad Button"><span>$28.40</span>
+            </a>
+          </li>
+          <li class="buying-link">
+            <a class="store" href="#"><img src="./images/amazon.png" alt="Amazon Button"><span>$29.65</span>
+            </a>
+          </li>
+          <li class="buying-link">
+            <a class="store" href="#"><img src="./images/manning.png" alt="Manning Button"><span>$28.70</span>
+            </a>
+          </li>
+          <li class="bookmark-it"><img src="./images/ic_library_books_black_24dp_1x.png" alt="Bookmark It"><a href="#"><span class="bookmark-it-copy">Bookmark It</span></a>
+          </li>
         </ul>
-    </nav>
- 
-<div class="content">
-
-<div id="eloquent" class="book-panel">
-    <div class="main-row">
-  <div class="book-info">
-    <div class="header">
-      <h3>Eloquent JavaScript<br/>A Modern Introduction to Programming</h3>
-      <!-- End book_title div-->
-      <ul class="byline">
-          <li>by <a class="author" href="#">Marijin Haverbeke</a></li>
-          <li><a class="follow" href="#">Follow</a></li>
-          <li class="static-text">Published in 2015</li>
-          <li class="static-text">2nd Edition</li>
-      </ul>
-      <!-- End by_line-->
-     </div>
-  
-      <div class="description">
-          <p>JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build
-              full-scale applications.</p>
-          <p>Eloquent Javascript, 2nd Edition dives deep into the Ja-vaScript language to show you how to write beautiful, effective code.</p>
-          <a class="read-more" href="#">Read more</a>
+        <!-- End buying-links -->
       </div>
-      <!-- End description div-->
-  
-      <div class="utilities">
-          <ul class="ratings">
-              <li>Easy to Follow <span class="num-reviewers"><div class="arrow-down"></div>29</span> <span class="rating">80%</span> </li>
-              <li>Comprehensive <span class="num-reviewers"><div class="arrow-down"></div>6</span> <span class="rating">75%</span> </li>
-              <li>Enough Examples <span class="num-reviewers"><div class="arrow-down"></div>18</span><span class="rating">95%</span> </li>
-          </ul>
-          <ul class="details">
-              <li><a href="">Rate the Book</a><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
-              <li><a href="">Table of Contents</a><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
-              <li><a href="">Search Inside</a><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
-          </ul>
-      </div>
-      <!-- End utilities div-->
-  </div> <!-- End book-info--><img class="product_image" src="./images/book1.png" width="360" height="475" alt="Eloquent JavaScript 2nd Edition"/>
-  </div> <!-- end main row -->
-  <!-- End product_image div-->
-    <div class="footer">
-    <ul class="buying-links">
-        <li class="buying-link"><a class="store" href="#"><img src="./images/gumroad.png" alt="Gumroad Button"/><span>$28.40</span></a></li>
-        <li class="buying-link"><a class="store" href="#"><img src="./images/amazon.png" alt="Amazon Button"/><span>$29.65</span></a></li>
-        <li class="buying-link"><a class="store" href="#"><img src="./images/manning.png" alt="Manning Button"/><span>$28.70</span></a></li>
-        <li class="bookmark-it"><img src="./images/ic_library_books_black_24dp_1x.png" src="./images/ic_library_books_black_24dp_2x.png 2x" alt="Bookmark It"/><a href="#"><span class="bookmark-it-copy">Bookmark It</span></a></li>
-    </ul><!-- End buying-links -->
-    </div> <!-- End footer div-->
-  </div><!-- End book-panel-->
-  
-  
-  
-  
-  
-  
-  
-  <div id="eloquent" class="book-panel">
-    <div class="main-row">
-  <div class="book-info">
-    <div class="header">
-      <h3>JavaScript and JQuery: Interactive Front-End<br/>Web Development</h3>
-      <!-- End book_title div-->
-      <ul class="byline">
-          <li>by <a class="author" href="#">Marijin Haverbeke</a></li>
-          <li><a class="follow" href="#">Follow</a></li>
-          <li class="static-text">Published in 2016</li>
-          <li class="static-text">1st Edition</li>
-      </ul>
-      <!-- End by_line-->
-     </div>
-  
-      <div class="description">
-          <p>In JavaScript &and; jQuery renowned author Jon Duckett dis-
-          cards the traditional progragramming book template and ap-proaches writing code ina more relevant, less intimidating way.</p>
-          <p>Full-color and packed with instructional graphics and photos, his books have gained loyal following by illus-tration programming in a way both instructive for newcomers and invaluable for seasoned coders.</p>
-          <a href="#">Read more</a>
-      </div>
-      <!-- End description div-->
-  
-      <div class="utilities">
-          <ul class="ratings">
-              <li>Easy to Follow <span class="num-reviewers"><div class="arrow-down"></div>29</span> <span class="rating">80%</span> </li>
-              <li>Comprehensive <span class="num-reviewers"><div class="arrow-down"></div>6</span> <span class="rating">75%</span> </li>
-              <li>Enough Examples <span class="num-reviewers"><div class="arrow-down"></div>18</span><span class="rating">95%</span> </li>
-          </ul>
-          <ul class="details">
-              <li><a href="">Rate the Book</a><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
-              <li><a href="">Table of Contents</a><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
-              <li><a href="">Search Inside</a><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
-          </ul>
-      </div>
-      <!-- End utilities div-->
-  </div> <!-- End book-info--><img class="product_image" src="./images/book2_javascript_jquery.jpg" width="360" height="475" alt=" JavaScript & Jquery Edition"/>
-  </div> <!-- end main row -->
-  <!-- End product_image div-->
-    <div class="footer">
-    <ul class="buying-links">
-        <li class="buying-link"><a class="store" href="#"><img src="./images/gumroad.png" alt="Gumroad Button"/><span>$28.40</span></a></li>
-        <li class="buying-link"><a class="store" href="#"><img src="./images/amazon.png" alt="Amazon Button"/><span>$29.65</span></a></li>
-        <li class="buying-link"><a class="store" href="#"><img src="./images/manning.png" alt="Manning Button"/><span>$28.70</span></a></li>
-        <li class="bookmark-it"><img src="./images/ic_library_books_black_24dp_1x.png" src="./images/ic_library_books_black_24dp_2x.png 2x" alt="Bookmark It"/><a href="#"><span class="bookmark-it-copy">Bookmark It</span></a></li>
-    </ul><!-- End buying-links -->
-    </div> <!-- End footer div-->
-  </div><!-- End book-panel-->
-
-  <div id="eloquent" class="book-panel">
-    <div class="main-row">
-  <div class="book-info">
-    <div class="header">
-      <h3>Learning PHP, MySQL &amp; Javascript </h3>
-      <!-- End book_title div-->
-      <ul class="byline">
-          <li>by <a class="author" href="#">Marijin Haverbeke</a></li>
-          <li><a class="follow" href="#">Follow</a></li>
-          <li class="static-text">Published in 2016</li>
-          <li class="static-text">4th Edition</li>
-      </ul>
-      <!-- End by_line-->
-     </div>
-  
-      <div class="description">
-          <p>Build interactive, data-driven websites with the potent combination of open-source technologies and web stan-dards even, if you 
-          have only basic HTML knowledge. With this popular hands-on-guide, you'll tackle dynamic web programming with the help of 
-          core technologies: PHP, MySQL, Javascript, jQuery, CSS and HTML 5. </p>
-          <p>By discussing  JavaScript and jQuery in a single text, Duck-ett ensures you will quickly be writing your own scripts.</p>
-          <a href="#">Read more</a>
-      </div>
-      <!-- End description div-->
-  
-      <div class="utilities">
-          <ul class="ratings">
-              <li>Easy to Follow <span class="num-reviewers"><div class="arrow-down"></div>29</span> <span class="rating">80%</span> </li>
-              <li>Comprehensive <span class="num-reviewers"><div class="arrow-down"></div>6</span> <span class="rating">75%</span> </li>
-              <li>Enough Examples <span class="num-reviewers"><div class="arrow-down"></div>18</span><span class="rating">95%</span> </li>
-          </ul>
-          <ul class="details">
-              <li><a href="">Rate the Book</a><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
-              <li><a href="">Table of Contents</a><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
-              <li><a href="">Search Inside</a><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
-          </ul>
-      </div>
-      <!-- End utilities div-->
-  </div> <!-- End book-info--><img class="product_image" src="./images/book3.jpg" width="360" height="475" alt=" JavaScript & Jquery Edition"/>
-  </div> <!-- end main row -->
-  <!-- End product_image div-->
-    <div class="footer">
-    <ul class="buying-links">
-        <li class="buying-link"><a class="store" href="#"><img src="./images/gumroad.png" alt="Gumroad Button"/><span>$28.40</span></a></li>
-        <li class="buying-link"><a class="store" href="#"><img src="./images/amazon.png" alt="Amazon Button"/><span>$29.65</span></a></li>
-        <li class="buying-link"><a class="store" href="#"><img src="./images/manning.png" alt="Manning Button"/><span>$28.70</span></a></li>
-        <li class="bookmark-it"><img src="./images/ic_library_books_black_24dp_1x.png" src="./images/ic_library_books_black_24dp_2x.png 2x" alt="Bookmark It"/><a href="#"><span class="bookmark-it-copy">Bookmark It</span></a></li>
-    </ul><!-- End buying-links -->
-    </div> <!-- End footer div-->
-  </div><!-- End book-panel-->
-
-
-  </div><!-- End .content -->
-</body>
-<footer>
-	<div class="foot">
-    	<div class="bottomlogo"><img src="images/books.MD_footer_logo_icon.png" alt="Logo"></div>
-        <div class="outro">Books<span id="modoutro" >.Modern Developer</span></div>
-        <div class="foot_together">
-            <div class="copyright">&copy; 2016 Modern Developer Inc.</div>
-            <div class="contact_info">books@moderndeveloper.com</div>
-        </div>
+      <!-- End footer div-->
     </div>
-</footer>
+    <!-- End book-panel-->
+    <div id="eloquent" class="book-panel">
+      <div class="main-row">
+        <div class="book-info">
+          <div class="header">
+            <h3>JavaScript and JQuery: Interactive Front-End<br>Web Development</h3>
+            <!-- End book_title div-->
+            <ul class="byline">
+              <li>by <a class="author" href="#">Marijin Haverbeke</a>
+              </li>
+              <li><a class="follow" href="#">Follow</a>
+              </li>
+              <li class="static-text">Published in 2016</li>
+              <li class="static-text">1st Edition</li>
+            </ul>
+            <!-- End by_line-->
+          </div>
+          <div class="description">
+            <p>In JavaScript ∧ jQuery renowned author Jon Duckett dis- cards the traditional progragramming book template and ap-proaches writing code ina more relevant, less intimidating way.</p>
+            <p>Full-color and packed with instructional graphics and photos, his books have gained loyal following by illus-tration programming in a way both instructive for newcomers and invaluable for seasoned coders.</p> <a href="#">Read more</a> </div>
+          <!-- End description div-->
+          <div class="utilities">
+            <ul class="ratings">
+              <li>Easy to Follow <span class="num-reviewers"><div class="arrow-down"></div>29</span> <span class="rating">80%</span> </li>
+              <li>Comprehensive <span class="num-reviewers"><div class="arrow-down"></div>6</span> <span class="rating">75%</span> </li>
+              <li>Enough Examples <span class="num-reviewers"><div class="arrow-down"></div>18</span><span class="rating">95%</span> </li>
+            </ul>
+            <ul class="details">
+              <li><a href="">Rate the Book</a><i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </li>
+              <li><a href="">Table of Contents</a><i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </li>
+              <li><a href="">Search Inside</a><i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </li>
+            </ul>
+          </div>
+          <!-- End utilities div-->
+        </div>
+        <!-- End book-info--><img class="product_image" src="./images/book2_javascript_jquery.jpg" width="360" height="475" alt=" JavaScript &amp; Jquery Edition"> </div>
+      <!-- end main row -->
+      <!-- End product_image div-->
+      <div class="footer">
+        <ul class="buying-links">
+          <li class="buying-link">
+            <a class="store" href="#"><img src="./images/gumroad.png" alt="Gumroad Button"><span>$28.40</span>
+            </a>
+          </li>
+          <li class="buying-link">
+            <a class="store" href="#"><img src="./images/amazon.png" alt="Amazon Button"><span>$29.65</span>
+            </a>
+          </li>
+          <li class="buying-link">
+            <a class="store" href="#"><img src="./images/manning.png" alt="Manning Button"><span>$28.70</span>
+            </a>
+          </li>
+          <li class="bookmark-it"><img src="./images/ic_library_books_black_24dp_1x.png" alt="Bookmark It"><a href="#"><span class="bookmark-it-copy">Bookmark It</span></a>
+          </li>
+        </ul>
+        <!-- End buying-links -->
+      </div>
+      <!-- End footer div-->
+    </div>
+    <!-- End book-panel-->
+    <!-- Third Panel with Overlay-->
+    <div id="eloquent" class="book-panel">
+      <div class="modals">
+        <div class="modal">
+          <div class="search_inside">
+            <form>
+              <input type="text" name="search" placeholder="JavaScript"> </form>
+            <div class="js_search_term">
+              <table id="t01">
+                <tbody>
+                  <tr>
+                    <td>... Eloquent <span class="search_word">JavaScript</span>, 2nd Edition. Copyright © 2015 by Marij...</td>
+                    <td>8</td>
+                  </tr>
+                  <tr>
+                    <td>... Language 191 PART II: BROWSER Chapter 12: <span class="search_word">JavaScript</span> and the ...</td>
+                    <td>15</td>
+                  </tr>
+                  <tr>
+                    <td>... BROWSER 12: JAVASCRIPT AND THE BROWSER 207 Networks ...</td>
+                    <td>19</td>
+                  </tr>
+                  <tr>
+                    <td>... Templates 387 The Unscriptables 387 22 <span class="search_word">JAVASCRIPT</span> ... </td>
+                    <td>28</td>
+                  </tr>
+                  <tr>
+                    <td>... Multiple Promises 421 Forms and Form Fields 421 A <span class="search_word">JavaScript </span>W... </td>
+                    <td>36</td>
+                  </tr>
+                  <tr>
+                    <td>... there, if you know where to look. One such language, <span class="search_word">JavaScript</span>, is ... </td>
+                    <td>41</td>
+                  </tr>
+                  <tr>
+                    <td>... Here is the same program in <span class="search_word">JavaScript</span>: var total = 0, count = 1; whil. </td>
+                    <td>53</td>
+                  </tr>
+                  <tr>
+                    <td>... What is Javascript? <span class="search_word">JavaScript</span> was introduced in 1995 as a wa...</td>
+                    <td>58</td>
+                  </tr>
+                  <tr>
+                    <td>... EloquEnt <span class="search_word">JavaScript</span>, 2nd Edition. Copyright 2015 by Marij...</td>
+                    <td>61</td>
+                  </tr>
+                  <tr>
+                    <td>... Language 191 PART II: BROWSER Chapter 12: <span class="search_word">JavaScript</span> and the ...</td>
+                    <td>63</td>
+                  </tr>
+                  <tr>
+                    <td>... BROWSER 12: JAVASCRIPT AND THE BROWSER 207 Networks ...</td>
+                    <td>19</td>
+                  </tr>
+                  <tr>
+                    <td>... Templates 387 The Unscriptables 387 22 <span class="search_word">JAVASCRIPT</span> ... </td>
+                    <td>28</td>
+                  </tr>
+                  <tr>
+                    <td>... Multiple Promises 421 Forms and Form Fields 421 A <span class="search_word">JavaScript </span>W... </td>
+                    <td>36</td>
+                  </tr>
+                  <tr>
+                    <td>... there, if you know where to look. One such language, <span class="search_word">JavaScript</span>, is ... </td>
+                    <td>41</td>
+                  </tr>
+                  <tr>
+                    <td>... Here is the same program in <span class="search_word">JavaScript</span>: var total = 0, count = 1; whil. </td>
+                    <td>53</td>
+                  </tr>
+                  <tr>
+                    <td>... What is Javascript? <span class="search_word">JavaScript</span> was introduced in 1995 as a wa...</td>
+                    <td>58</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <ul class="icon-bar">
+            <li id="close"><a href="#">X</a>
+            </li>
+            <li id="search_inside"><a href="#">Search Inside</a>
+            </li>
+            <li id="table_of_contents"><a href="#">Table of Contents</a>
+            </li>
+            <li id="rate"><a href="#">Rate the Book</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- End .modal -->
+      <div class="main-row">
+        <div class="book-info">
+          <div class="header">
+            <h3>Eloquent JavaScript<br>A Modern Introduction to Programming</h3>
+            <!-- End book_title div-->
+            <ul class="byline">
+              <li>by <a class="author" href="#">Marijin Haverbeke</a>
+              </li>
+              <li><a class="follow" href="#">Follow</a>
+              </li>
+              <li class="static-text">Published in 2015</li>
+              <li class="static-text">2nd Edition</li>
+            </ul>
+            <!-- End by_line-->
+          </div>
+          <div class="description">
+            <p>JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.</p>
+            <p>Eloquent Javascript, 2nd Edition dives deep into the Ja-vaScript language to show you how to write beautiful, effective code.</p> <a class="read-more" href="#">Read more</a> </div>
+          <!-- End description div-->
+          <div class="utilities">
+            <!--- Ratings Covered up by search inside module -->
+            <ul class="ratings">
+              <li>Easy to Follow <span class="num-reviewers"><div class="arrow-down"></div>29</span> <span class="rating">80%</span> </li>
+              <li>Comprehensive <span class="num-reviewers"><div class="arrow-down"></div>6</span> <span class="rating">75%</span> </li>
+              <li>Enough Examples <span class="num-reviewers"><div class="arrow-down"></div>18</span><span class="rating">95%</span> </li>
+            </ul>
+            <ul class="details">
+              <li><a href="">Rate the Book</a><i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </li>
+              <li><a href="">Table of Contents</a><i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </li>
+              <li><a href="">Search Inside</a><i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </li>
+            </ul>
+          </div>
+          <!-- End utilities div-->
+        </div>
+        <!-- End book-info--><img class="product_image" src="./images/book1.png" width="360" height="475" alt="Eloquent JavaScript 2nd Edition"> </div>
+      <!-- end main row -->
+      <!-- End product_image div-->
+      <div class="footer">
+        <ul class="buying-links">
+          <li class="buying-link">
+            <a class="store" href="#"><img src="./images/gumroad.png" alt="Gumroad Button"><span>$28.40</span>
+            </a>
+          </li>
+          <li class="buying-link">
+            <a class="store" href="#"><img src="./images/amazon.png" alt="Amazon Button"><span>$29.65</span>
+            </a>
+          </li>
+          <li class="buying-link">
+            <a class="store" href="#"><img src="./images/manning.png" alt="Manning Button"><span>$28.70</span>
+            </a>
+          </li>
+          <li class="bookmark-it"><img src="./images/ic_library_books_black_24dp_1x.png" alt="Bookmark It"><a href="#"><span class="bookmark-it-copy">Bookmark It</span></a>
+          </li>
+        </ul>
+        <!-- End buying-links -->
+      </div>
+      <!-- End footer div-->
+    </div>
+    <!-- End Third Panel with overlay -->
+    <div id="eloquent" class="book-panel">
+      <div class="main-row">
+        <div class="book-info">
+          <div class="header">
+            <h3>Learning PHP, MySQL &amp; Javascript </h3>
+            <!-- End book_title div-->
+            <ul class="byline">
+              <li>by <a class="author" href="#">Marijin Haverbeke</a>
+              </li>
+              <li><a class="follow" href="#">Follow</a>
+              </li>
+              <li class="static-text">Published in 2016</li>
+              <li class="static-text">4th Edition</li>
+            </ul>
+            <!-- End by_line-->
+          </div>
+          <div class="description">
+            <p>Build interactive, data-driven websites with the potent combination of open-source technologies and web stan-dards even, if you have only basic HTML knowledge. With this popular hands-on-guide, you'll tackle dynamic web programming with the help of core technologies: PHP, MySQL, Javascript, jQuery, CSS and HTML 5. </p>
+            <p>By discussing JavaScript and jQuery in a single text, Duck-ett ensures you will quickly be writing your own scripts.</p> <a href="#">Read more</a> </div>
+          <!-- End description div-->
+          <div class="utilities">
+            <ul class="ratings">
+              <li>Easy to Follow <span class="num-reviewers"><div class="arrow-down"></div>29</span> <span class="rating">80%</span> </li>
+              <li>Comprehensive <span class="num-reviewers"><div class="arrow-down"></div>6</span> <span class="rating">75%</span> </li>
+              <li>Enough Examples <span class="num-reviewers"><div class="arrow-down"></div>18</span><span class="rating">95%</span> </li>
+            </ul>
+            <ul class="details">
+              <li><a href="">Rate the Book</a><i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </li>
+              <li><a href="">Table of Contents</a><i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </li>
+              <li><a href="">Search Inside</a><i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </li>
+            </ul>
+          </div>
+          <!-- End utilities div-->
+        </div>
+        <!-- End book-info--><img class="product_image" src="./images/book3.jpg" width="360" height="475" alt=" JavaScript &amp; Jquery Edition"> </div>
+      <!-- end main row -->
+      <!-- End product_image div-->
+      <div class="footer">
+        <ul class="buying-links">
+          <li class="buying-link">
+            <a class="store" href="#"><img src="./images/gumroad.png" alt="Gumroad Button"><span>$28.40</span>
+            </a>
+          </li>
+          <li class="buying-link">
+            <a class="store" href="#"><img src="./images/amazon.png" alt="Amazon Button"><span>$29.65</span>
+            </a>
+          </li>
+          <li class="buying-link">
+            <a class="store" href="#"><img src="./images/manning.png" alt="Manning Button"><span>$28.70</span>
+            </a>
+          </li>
+          <li class="bookmark-it"><img src="./images/ic_library_books_black_24dp_1x.png" alt="Bookmark It"><a href="#"><span class="bookmark-it-copy">Bookmark It</span></a>
+          </li>
+        </ul>
+        <!-- End buying-links -->
+      </div>
+      <!-- End footer div-->
+    </div>
+    <!-- End book-panel-->
+  </div>
+  <!-- End .content -->
+  <footer>
+    <div class="foot">
+      <div class="bottomlogo"><img src="images/books.MD_footer_logo_icon.png" alt="Logo">
+      </div>
+      <div class="outro">Books<span id="modoutro">.Modern Developer</span>
+      </div>
+      <div class="foot_together">
+        <div class="copyright">© 2016 Modern Developer Inc.</div>
+        <div class="contact_info">books@moderndeveloper.com</div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
