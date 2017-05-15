@@ -6,9 +6,10 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,300italic|Roboto+Slab:400,300,700,100" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="website.css">
 </head>
+<body>
 <header>
-	<div class="head">
-    	<div class="intro_bar">
+  <div class="head">
+      <div class="intro_bar">
             <div class="toplogo"><img src="images/books.MD_logo_icon.png" alt="Logo"></div>
             <div class="intro">Books. <span id="moddev" >Modern Developer</span></div>
             <div class="description">The Largest Resource of Web and Mobile Development and Programming Books</div>
@@ -19,7 +20,6 @@
         </div>
     </div>
 </header>
-<body>
 	<nav>
         <ul class="topnav"> 
           <li><a href="#">UI/UX Design</a></li>
@@ -30,37 +30,112 @@
           <li><a href="#">Backend Development</a></li>
         </ul>
     </nav>
-    <div class="books">
-    	<div class="book_title">Book Title</div>
-        <div class="book_nav">
-            <ul>
-                <li><a href="#">Author</a></li>
-                <li><a href="#">Follow</a></li>
-                <li><a href="#">PubDate</a></li>
-                <li><a href="#">Edition</a></li>
-            </ul>
-        </div>
-        <div class="description"></div>
-        <div class="scale">
-        	<div>Easy to Follow</div>
-            <div>Comprehensive</div>
-            <div>Enough Examples</div>
-        </div>
-        <div class="details">
-        	<div>Rate the Book</div>
-            <div>Table of Contents</div>
-            <div>Search Inside</div>
-        </div>
-    	<div class="book_image"><img src="book1" alt="Book 1"></div>
-        <div class="buying_links">
-        	<ul>
-            	<li><a href="#">Gumroad</a></li>
-                <li><a href="#">Amazon</a></li>
-          		<li><a href="#">Publisher</a></li>
-                <li><a href="#">Bookmark It</a></li>
-            </ul>
-        </div>
-    </div>
+ 
+<div class="content">
+
+<div id="eloquent" class="book-panel">
+    <div class="main-row">
+  <div class="book-info">
+    <div class="header">
+      <h3>Eloquent JavaScript<br/>A Modern Introduction to Programming</h3>
+      <!-- End book_title div-->
+      <ul class="byline">
+          <li>by <a class="author" href="#">Marijin Haverbeke</a></li>
+          <li><a class="follow" href="#">Follow</a></li>
+          <li class="static-text">Published in 2015</li>
+          <li class="static-text">2nd Edition</li>
+      </ul>
+      <!-- End by_line-->
+     </div>
+  
+      <div class="description">
+          <p>JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build
+              full-scale applications.</p>
+          <p>Eloquent Javascript, 2nd Edition dives deep into the Ja-vaScript language to show you how to write beautiful, effective code.</p>
+          <a class="read-more" href="#">Read more</a>
+      </div>
+      <!-- End description div-->
+  
+      <div class="utilities">
+          <ul class="ratings">
+              <li>Easy to Follow <span class="num-reviewers"><div class="arrow-down"></div>29</span> <span class="rating">80%</span> </li>
+              <li>Comprehensive <span class="num-reviewers"><div class="arrow-down"></div>6</span> <span class="rating">75%</span> </li>
+              <li>Enough Examples <span class="num-reviewers"><div class="arrow-down"></div>18</span><span class="rating">95%</span> </li>
+          </ul>
+          <ul class="details">
+              <li><a href="">Rate the Book</a><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+              <li><a href="">Table of Contents</a><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+              <li><a href="">Search Inside</a><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+          </ul>
+      </div>
+      <!-- End utilities div-->
+  </div> <!-- End book-info--><img class="product_image" src="./images/book1.png" width="360" height="475" alt="Eloquent JavaScript 2nd Edition"/>
+  </div> <!-- end main row -->
+  <!-- End product_image div-->
+    <div class="footer">
+    <ul class="buying-links">
+        <li class="buying-link"><a class="store" href="#"><img src="./images/gumroad.png" alt="Gumroad Button"/><span>$28.40</span></a></li>
+        <li class="buying-link"><a class="store" href="#"><img src="./images/amazon.png" alt="Amazon Button"/><span>$29.65</span></a></li>
+        <li class="buying-link"><a class="store" href="#"><img src="./images/manning.png" alt="Manning Button"/><span>$28.70</span></a></li>
+        <li class="bookmark-it"><img src="./images/ic_library_books_black_24dp_1x.png" src="./images/ic_library_books_black_24dp_2x.png 2x" alt="Bookmark It"/><a href="#"><span class="bookmark-it-copy">Bookmark It</span></a></li>
+    </ul><!-- End buying-links -->
+    </div> <!-- End footer div-->
+  </div><!-- End book-panel-->
+  
+  
+  
+  
+  
+  
+  
+  <div id="eloquent" class="book-panel">
+    <div class="main-row">
+  <div class="book-info">
+    <div class="header">
+      <h3>JavaScript and JQuery: Interactive Front-End<br/>Web Development</h3>
+      <!-- End book_title div-->
+      <ul class="byline">
+          <li>by <a class="author" href="#">Marijin Haverbeke</a></li>
+          <li><a class="follow" href="#">Follow</a></li>
+          <li class="static-text">Published in 2016</li>
+          <li class="static-text">1st Edition</li>
+      </ul>
+      <!-- End by_line-->
+     </div>
+  
+      <div class="description">
+          <p>In JavaScript &and; jQuery renowned author Jon Duckett dis-
+          cards the traditional progragramming book template and ap-proaches writing code ina more relevant, less intimidating way.</p>
+          <p>Full-color and packed with instructional graphics and photos, his books have gained loyal following by illus-tration programming in a way both instructive for newcomers and invaluable for seasoned coders.</p>
+          <a href="#">Read more</a>
+      </div>
+      <!-- End description div-->
+  
+      <div class="utilities">
+          <ul class="ratings">
+              <li>Easy to Follow <span class="num-reviewers"><div class="arrow-down"></div>29</span> <span class="rating">80%</span> </li>
+              <li>Comprehensive <span class="num-reviewers"><div class="arrow-down"></div>6</span> <span class="rating">75%</span> </li>
+              <li>Enough Examples <span class="num-reviewers"><div class="arrow-down"></div>18</span><span class="rating">95%</span> </li>
+          </ul>
+          <ul class="details">
+              <li><a href="">Rate the Book</a><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+              <li><a href="">Table of Contents</a><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+              <li><a href="">Search Inside</a><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+          </ul>
+      </div>
+      <!-- End utilities div-->
+  </div> <!-- End book-info--><img class="product_image" src="./images/book2_javascript_jquery.jpg" width="360" height="475" alt=" JavaScript & Jquery Edition"/>
+  </div> <!-- end main row -->
+  <!-- End product_image div-->
+    <div class="footer">
+    <ul class="buying-links">
+        <li class="buying-link"><a class="store" href="#"><img src="./images/gumroad.png" alt="Gumroad Button"/><span>$28.40</span></a></li>
+        <li class="buying-link"><a class="store" href="#"><img src="./images/amazon.png" alt="Amazon Button"/><span>$29.65</span></a></li>
+        <li class="buying-link"><a class="store" href="#"><img src="./images/manning.png" alt="Manning Button"/><span>$28.70</span></a></li>
+        <li class="bookmark-it"><img src="./images/ic_library_books_black_24dp_1x.png" src="./images/ic_library_books_black_24dp_2x.png 2x" alt="Bookmark It"/><a href="#"><span class="bookmark-it-copy">Bookmark It</span></a></li>
+    </ul><!-- End buying-links -->
+    </div> <!-- End footer div-->
+  </div><!-- End book-panel--></div><!-- End .content -->
 </body>
 <footer>
 	<div class="foot">

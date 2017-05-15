@@ -1,3 +1,64 @@
+/*
+
+Eric Meyer's CSS
+
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+a {
+  color: #5594c9;
+  text-decoration: none;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ 
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -6,24 +67,44 @@
 	margin: 0;
 	padding: 0;
 	}
-	
 /* general body */
 body {
-	background-color: #F5F5F5;
-	font-family: Roboto Slab, sans-serif;
-	}
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  background: #f5f5f5;
+}	
 
 /* styling background in header */
 header {
 	height: 264px;
-	max-width: 1600px;
+	width: 100%;
 	margin: 0px auto;
 	background: url(images/books_header_bg.jpg) no-repeat right 0px;
 	padding-top: 3%;
 	}
 
+.content {
+  padding-top: 50px;
+  align-self: center;
+   max-width: 1200px;
+   padding-bottom: 200px;
+}
+
+/* styling footer */
+footer {
+  background-color: #3A3A3A;
+    padding: 1rem;
+  height: 150px;
+  }
+nav {
+ background-color: #ffffff;
+}
 /* centering the head section */	
 .head {
+
 	max-width: 700px;
 	margin: 0px auto;
 	font-size: 2em;
@@ -62,8 +143,7 @@ header {
 ul.topnav {
   	list-style-type: none;
 	text-align: center;  	
-    overflow: hidden;
-    background-color: #F5F5F5;
+    overflow: hidden; 
 	max-width: 1040px;
 	margin: 0px auto;
 	font-family: Roboto, sans-serif;
@@ -154,17 +234,9 @@ ul.topnav li a:hover {
     width: 40px;
 }
 
-/* styling footer */
-footer {
-	max-width: 1600px;
-	background-color: #3A3A3A;
-	position: absolute;
-  	right: 0;
-  	bottom: 0;
-  	left: 0;
-  	padding: 1rem;
-	height: 150px;
-	}
+* {
+  box-sizing: border-box;
+}
 
 /* determine size and centering of text in the footer */	
 .foot {
@@ -211,6 +283,439 @@ footer {
 	color: #B1B1B1;
 	font-size: .90em;
 	}
+
+
+
+/*
+
+Styles
+
+*/
+
+
+.book-panel {
+  display: flex;
+  flex-direction: column;
+  max-width: 1204px;
+font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  background: #f5f5f5;
+  margin: 0 auto;
+  margin-bottom: 100px;
+ }
+
+#eloquent .main-row {
+   display: flex;
+  flex-direction: row;
+   background-color: #ffffff;
+   margin-bottom:10px;
+ }
+
+#eloquent .book-info {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 843px;
+  height: 475px;
+  padding:35px;
+
+}
+#eloquent .header {
+  width: 808px;
+  height: auto;
+}
+
+#eloquent .book-info h3 {
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22pt;
+  line-height: 25pt;
+  letter-spacing: .25px;
+  margin-bottom: 14px;
+}
+
+#eloquent ul.byline {
+  /*display:inline-block;*/
+  margin-top: 21px;
+
+}
+
+#eloquent ul.byline > li {
+  display: inline;
+  font-size: 14.6px;
+  
+}
+#eloquent .author {
+    font-size: 15px;
+    letter-spacing: -0.5pt;
+    color: #3183c9;
+    text-decoration: none;
+}
+#eloquent a.follow {
+    padding: 4px 7px 3px 12px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #99b82d;
+    border: 1px solid #99b82d;
+    border-radius: 1px;
+    margin-left: 6px; 
+}
+
+#eloquent li.static-text {
+    color: #888;
+    margin-left: 33px;
+    
+}
+
+#eloquent .description {
+    width: 455px;
+    margin-top: 48px;
+    padding-right: 26px;
+    border-right: 1px solid #e5e5e5;
+    padding-right: 31px;
+
+}
+
+#eloquent .description > p {
+      word-break: break-word;
+    line-height: 24.1px;
+    font-size: 12pt;
+    margin-bottom: 25px;
+    hyphens: manual;
+    letter-spacing: 0.28pt;
+    word-spacing: -1.4pt;
+    margin-top: -2px;
+}
+
+/* Read more */
+.description > a {
+    margin-top: 3px;
+    display: inline-block;
+font-size: 16px;
+}
+ 
+
+
+
+
+/*
+*
+*  Utilities and related styles
+*
+*/
+
+#eloquent .utilities {
+  width: 270px;
+  margin-left: 47px;
+  padding-top: 45px;
+}
+
+#eloquent ul.ratings li {
+  font-size: 14px;
+}
+
+
+/*  (ALL) arrow */
+#eloquent .arrow-down {
+  position: absolute;
+      top: 15px;
+    left: -3.2px;
+  
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  
+  -moz-transform: rotate(128deg);
+-o-transform: rotate(128deg);
+-webkit-transform: rotate(128deg);
+transform: rotate(128deg);
+}
+ 
+
+/*  (ALL) ratings list item styling */
+#eloquent ul.ratings li{
+display: block;
+width: 289px;
+margin-bottom: 21px;
+} 
+
+/*  (ALL) Number of Reviewers list item styling */
+#eloquent ul.ratings li .num-reviewers {
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  width: 20px;
+  padding: 3px;
+  border-radius:4px 4px 4px 0px;
+  font-size: 10px;
+  text-align: center;
+  margin-left: 3px;
+}
+
+/* (ALL) ratings background line graphic */
+#eloquent ul.ratings li:before {
+display: block;
+position: relative;
+content:"";
+width: 289px;
+height: 4px;
+z-index: 4;
+top: 24px;
+}
+
+/* (ALL) ratings foreground line graphic */
+#eloquent ul.ratings li:after {
+display: block;
+position: relative;
+content:"";
+
+height: 4px;
+z-index: 4;
+top:3px;
+} 
+
+/* (ALL) Ratings numbers */
+#eloquent ul.ratings li .rating {
+      display: inline-block;
+    float: right;
+    padding-right: 15px;
+}
+
+/*
+*  (1) "Easy to Follow" list item and related styles
+*
+*/
+
+#eloquent ul.ratings li:nth-child(1){
+color: #f7be26;
+} 
+#eloquent ul.ratings li:nth-child(1) .arrow-down {
+border-top: 5px solid #fdd978;
+}
+
+/* (1) "Easy to Follow" ratings background graphic */
+#eloquent ul.ratings li:nth-child(1):before {
+background-color:#f3f3f3;
+}
+
+/* (1) "Easy to Follow" ratings foreground graphic */
+#eloquent ul.ratings li:nth-child(1):after {
+background-color:#f7be26;
+width: 8px;
+} 
+
+/* (1) "Easy to Follow" Number of Reviewers number */
+#eloquent ul.ratings li:nth-child(1) .num-reviewers { 
+  color: #c3920f;
+  background-color:#fdd978;
+}
+
+/* (1) "Easy to Follow" Ratings number */
+#eloquent ul.ratings li:nth-child(1) .rating {
+   color: #f7be26;
+}
+
+
+
+
+
+
+
+/*
+*  (2) "Comprehensive"   related styles
+*
+*/
+ 
+#eloquent ul.ratings li:nth-child(2) {
+color: #75c36a;
+} 
+
+#eloquent ul.ratings li:nth-child(2) .arrow-down {
+border-top: 5px solid #abd8a5;
+}
+
+/* (2) "Comprehensive" ratings background graphic */
+#eloquent ul.ratings li:nth-child(2):before {
+background-color:#f3f3f3;
+}
+
+/* (2) "Comprehensive" ratings foreground graphic */
+#eloquent ul.ratings li:nth-child(2):after {
+background-color:#75c36a;
+width: 28px;
+} 
+
+/* (2) "Comprehensive" Number of Reviewers number */
+#eloquent ul.ratings li:nth-child(2) .num-reviewers {
+  color: #4c8f43;
+  background-color:#abd8a5;
+}
+
+/* (2) "Comprehensive" Ratings number */
+#eloquent ul.ratings li:nth-child(2) .rating {
+   color: #75c36a;
+ 
+}
+
+
+
+
+
+
+
+/*
+*  (3) "Enough Examples" list item and related styles
+*
+*/
+ 
+#eloquent ul.ratings li:nth-child(3) {
+color: #5ac9e3;
+}
+
+#eloquent ul.ratings li:nth-child(3) .arrow-down {
+border-top: 5px solid #9ed7e8;
+}
+
+/* (3) "Enough Examples" ratings background graphic */
+#eloquent ul.ratings li:nth-child(3):before {
+background-color:#f3f3f3;
+}
+
+/* (3) "Enough Examples" ratings foreground graphic */
+#eloquent ul.ratings li:nth-child(3):after {
+background-color:#5ac9e3;
+width: 50px;
+} 
+
+/* (3) "Enough Examples" Number of Reviewers number */
+#eloquent ul.ratings li:nth-child(3) .num-reviewers {
+  color: #1a8aa4;
+  background-color:#9ed7e8;
+}
+
+/* (3) "Enough Examples" Ratings number */
+#eloquent ul.ratings li:nth-child(3) .rating {
+   color: #5ac9e3;
+}
+
+
+
+
+
+
+
+/*
+*  "Details" list item and the related styles:
+*   "Rate the Book" "Table of Content" & "Search Inside" styles are below
+*/
+#eloquent ul.details {
+  margin-top: 60px;
+ 
+}
+#eloquent ul.details li{
+
+ display:relative;
+color: #5ac9e3;
+width: 289px;
+margin-bottom: 10px;
+padding-bottom:10px;
+border-bottom: 1px solid #f3f3f3;
+}
+
+#eloquent ul.details li:after {
+display: block;
+color: #5ac9e3;
+
+} 
+#eloquent ul.details a {
+  display: inline-block;
+  width: 180px;
+}
+
+/*. for the chevron arrow graphic */
+#eloquent ul.details i {
+  position: relative;
+display: inline-block;
+width: 50px;
+color: #5594c9;
+font-size: 9px;
+left:84px
+
+}
+
+
+
+/*
+*
+* Footer Buying Links
+*
+*/
+ 
+ #eloquent .footer {
+   background: transparent;
+ }
+#eloquent ul.buying-links {
+display: flex;
+flex-direction: row; 
+align-items: flex-start;
+padding-top: 18px;
+}
+ 
+#eloquent li.buying-link {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+a.store {
+display: flex;
+flex-direction: row;
+align-items: center;
+  color: #a0c52f;
+}
+#eloquent a.store > img {
+border: 1px solid lightgray;
+border-radius: 5px; 
+}
+
+#eloquent .buying-link span {
+   padding: 0 45px 0 10px;
+   font-size: 18px;
+   font-weight: 300;
+}
+#eloquent .bookmark-it {
+  color: #858683;
+} 
+#eloquent .buying-links > li:nth-child(4) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; 
+  width:100px; 
+  margin-left: auto;
+ 
+}
+#eloquent .bookmark-it > img {
+    opacity: .8;
+    margin: -10px 0px 3px 10px;
+    width: 37px;
+}
+#eloquent .bookmark-it-copy {
+  font-family: "Roboto";
+      color: #707070;
+    font-weight: 300;
+    font-size: 14px;
+    padding-left: 9px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
